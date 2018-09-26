@@ -21,12 +21,17 @@
                 <i class="fas fa-star"></i>
             </div>
         </div>
+        <div class="mobile__button" id="mobileButton">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav class="nav">
             <div class="nav__menu">
                 <ul class="nav__menu--items">
-                    <li class="nav__menu--item"><a href="#">Story</a> </li>
-                    <li class="nav__menu--item"><a href="#">Rooms</a> </li>
-                    <li class="nav__menu--item"><a href="#">Price</a> </li>
+                    <li class="nav__menu--item"><a href="#Overview">Overview</a> </li>
+                    <li class="nav__menu--item"><a href="#Gallery">Gallery</a> </li>
+                    <li class="nav__menu--item"><a href="#Reviews">Reviews</a> </li>
                 </ul>
             </div>
         </nav>
@@ -34,7 +39,7 @@
             <h1 class="header__heading--text">the perfect place to <span>relax</span></h1>
         </div>
     </header>
-    <section class="stats">
+    <section class="stats" id="Overview">
         <div class="stats__container">
             <div class="stats__datas">
                 <div class="stats__data-1">
@@ -68,7 +73,7 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="Gallery">
         <div class="gallery--item-1"><img src="/assets/images/gallery_1.jpg" alt="Gallery Image 1" class="gallery__img"></div>
         <div class="gallery--item-2"><img src="/assets/images/gallery_2.jpg" alt="Gallery Image 2" class="gallery__img"></div>
         <div class="gallery--item-3"><img src="/assets/images/gallery_3.jpg" alt="Gallery Image 3" class="gallery__img"></div>
@@ -79,7 +84,7 @@
         <div class="gallery--item-8"><img src="assets/images/gallery_8.jpg" alt="Gallery Image 8" class="gallery__img"></div>
         <div class="gallery--item-9"><img src="assets/images/gallery_9.jpg" alt="Gallery Image 9" class="gallery__img"></div>
     </section>
-    <section class="cards">
+    <section class="cards" id="Reviews">
         <div class="cards--container">
             <div class="cards--left">
                     <h1 class="card__title">Reviews TripAdvisor</h1>
@@ -217,5 +222,7 @@
             <h1>Alex Gioffre' &copy; 2018</h1>
         </div>
     </footer>
+    
+    <script src="assets/js/scrypt.js"></script>
 </body>
 </html>
