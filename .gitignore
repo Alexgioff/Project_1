@@ -1,3 +1,5 @@
 /.sass-cache
 /sass
+/node_modules
 Thumbs.db
+/app

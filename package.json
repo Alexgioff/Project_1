@@ -1,0 +1,28 @@
+{
+  "name": "boh",
+  "version": "1.0.0",
+  "description": "\"Porject_1\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexgioff/Project_1.git"
+  },
+  "author": "Alex Gioffre'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexgioff/Project_1/issues"
+  },
+  "homepage": "https://github.com/Alexgioff/Project_1#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-inject": "^4.3.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
